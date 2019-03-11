@@ -1,17 +1,12 @@
 package com.example.university.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Embeddable;
-
 /**
  * Person encapsulates an individual's first and last name.
  */
-@Embeddable
 public class Person {
-    @Column
+
     private String firstName;
 
-    @Column
     private String lastName;
 
     public Person(String firstName, String lastName) {
